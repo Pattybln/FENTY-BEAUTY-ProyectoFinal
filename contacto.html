@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - Fenty Beauty</title>
+  <link rel="stylesheet" href="Css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Fenty Beauty</a></div>
+      <nav class="nav" id="mainNav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html" class="active">Contacto</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contacto</h1>
+    <form id="formContacto" class="form">
+      <label>
+        Nombre
+        <input id="nombre" name="nombre" type="text" required minlength="2" />
+      </label>
+      <label>
+        Correo
+        <input id="correo" name="correo" type="email" required />
+      </label>
+      <label>
+        Mensaje
+        <textarea id="mensaje" name="mensaje" rows="5" required minlength="10"></textarea>
+      </label>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <div id="respuesta"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Fenty Beauty © <span id="year5"></span></p>
+    </div>
+  </footer>
+
+  <script src="Js/validaciones.js"></script>
+  <script src="Js/main.js"></script>
+</body>
+</html>
+

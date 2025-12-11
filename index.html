@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fenty Beauty - Inicio</title>
+  <link rel="stylesheet" href="Css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+        <div class="logo"><a href="index.html">Fenty Beauty</a></div>
+        <nav class="nav" id="mainNav">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <a href="carrito.html" class="cart-icon" aria-label="Ver carrito de compras">
+            🛒 <span id="cart-counter" class="cart-counter"></span>
+        </a>
+
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+  <main>
+
+    <!-- HERO CON IMAGEN -->
+    <section class="hero" style="background-image: url('Images/Fondo1.png');">
+      <div class="container">
+        <h1>Bienvenida a Fenty Beauty</h1>
+        <p>Inclusión. Belleza. Autenticidad.</p>
+      </div>
+    </section>
+
+    <!-- DESTACADOS -->
+    <section class="destacados container">
+      <h2>Productos destacados</h2>
+      <div class="grid" id="destacados">
+        <!-- Productos insertados por JS -->
+        <div class="card">Cargando...</div>
+      </div>
+    </section>
+
+    <section class="info container">
+      <h2>Sobre la marca</h2>
+      <p>
+        Fenty Beauty es una marca dedicada a la diversidad en tonos y texturas,
+        creada por Rihanna.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Fenty Beauty © <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="Js/api.js"></script>
+  <script src="Js/main.js"></script>
+</body>
+</html>
