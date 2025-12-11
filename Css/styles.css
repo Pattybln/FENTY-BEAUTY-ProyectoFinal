@@ -40,8 +40,11 @@ body {
 /*------------LOGO----------*/
 
 .logo img {
-    height: 50px; /* cambia el tamaño a gusto */
-    width: auto;
+    height: 70px;      /* tamaño mediano, puedes ajustar */
+    width: 70px;       /* mismo valor para que quede circular */
+    object-fit: cover; /* recorta para que quede centrado */
+    border-radius: 50%; /* ¡lo hace redondo! */
+    display: block;
 }
 
 /* ------------------ HEADER ------------------ */
@@ -318,3 +321,4 @@ body {
   .hero{padding:50px 20px;}
 
 }
+
