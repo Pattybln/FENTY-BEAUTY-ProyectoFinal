@@ -37,6 +37,13 @@ body {
   padding:40px 0;
 }
 
+/*------------LOGO----------*/
+
+.logo img {
+    height: 50px; /* cambia el tamaño a gusto */
+    width: auto;
+}
+
 /* ------------------ HEADER ------------------ */
 
 .site-header{
@@ -309,4 +316,5 @@ body {
   .hamburger{display:block;}
   .hero h1{font-size:28px;}
   .hero{padding:50px 20px;}
+
 }
