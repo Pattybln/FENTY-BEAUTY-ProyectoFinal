@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Productos - Fenty Beauty</title>
+  <link rel="stylesheet" href="Css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo"><a href="index.html">Fenty Beauty</a></div>
+      <nav class="nav" id="mainNav">
+        <a href="index.html">Inicio</a>
+        <a href="productos.html" class="active">Productos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="productos-top">
+      <h1>Catálogo de Productos</h1>
+      <div class="filtros">
+        <input id="buscar" type="search" placeholder="Buscar producto..." />
+        <select id="filtroCategoria">
+          <option value="">Todas las categorías</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="grid" id="productos">
+      <!-- Productos cargados por JS -->
+      <div class="card">Cargando productos...</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Fenty Beauty © <span id="year2"></span></p>
+    </div>
+  </footer>
+
+  <script src="Js/api.js"></script>
+  <script src="Js/main.js"></script>
+</body>
+</html>
+
+
